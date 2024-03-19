@@ -3,3 +3,5 @@ node_modules
 .devcontainer
 .pnpm-debug.log
 report.html
+dist
+docs

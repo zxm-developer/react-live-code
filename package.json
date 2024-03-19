@@ -1,19 +1,19 @@
 {
-  "name": "react-live-code",
+  "name": "live-code",
   "description": "preview  react  code",
   "private": false,
   "version": "0.1.0",
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/@types/Playground/index.d.ts",
+        "types": "./dist/@types/LiveCode/index.d.ts",
         "default": "./dist/index.mjs"
       }
     },
-    "./PlaygroundSandbox": {
+    "./LiveCodeSandbox": {
       "import": {
-        "types": "./dist/@types/Playground/PlaygroundSandbox.d.ts",
-        "default": "./dist/PlaygroundSandbox.mjs"
+        "types": "./dist/@types/LiveCode/LiveCodeSandbox.d.ts",
+        "default": "./dist/LiveCodeSandbox.mjs"
       }
     }
   },
@@ -22,7 +22,7 @@
   ],
   "keywords": [
     "react",
-    "react-playground",
+    "live-code",
     "playground",
     "react-live",
     "live-editor",

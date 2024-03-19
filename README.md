@@ -1,1 +1,1 @@
-# react-live-code
+# live-code

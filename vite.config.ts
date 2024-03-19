@@ -23,7 +23,7 @@ export default defineConfig({
             jsAssetsFilterFunction: function customJsAssetsfilterFunction(outputChunk) {
               return (
                 outputChunk.fileName === 'index.mjs' ||
-                outputChunk.fileName === 'PlaygroundSandbox.mjs'
+                outputChunk.fileName === 'LiveCodeSandbox.mjs'
               )
             },
           }
@@ -76,8 +76,8 @@ export default defineConfig({
         // 内嵌至项目内部
         : {
             entry: [
-              resolve(__dirname, 'src/Playground/index.tsx'),
-              resolve(__dirname, 'src/Playground/PlaygroundSandbox.tsx'),
+              resolve(__dirname, 'src/LiveCode/index.tsx'),
+              resolve(__dirname, 'src/LiveCode/LiveCodeSandbox.tsx'),
             ],
             formats: ['es'],
             fileName: (format, entryName) => {
